@@ -1,0 +1,43 @@
+.card{
+    height: 441px;
+    width: 749px;
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+    right: 200px;
+    top: 200px;
+    bottom: 200px;
+    box-shadow: 1px 1px 13px -3px;
+    overflow: hidden;
+   
+    
+
+}
+
+
+.card-image{
+    width: 100%;
+}
+
+
+
+.black{
+    height: 441px;
+    width: 749px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+.text{
+    color: white;
+    font-size: 34px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+
+
+

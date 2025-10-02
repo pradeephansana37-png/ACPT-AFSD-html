@@ -1,0 +1,20 @@
+.item{
+    background-color: gold;
+    padding: 17px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;  /* can (100px auto 100px auto 100px auto) */
+}
+
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

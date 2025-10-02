@@ -1,0 +1,183 @@
+body {
+    background-image: url(../assets/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leaf {
+    width: 90px;
+    height: 90px;
+    margin: 40px auto 10px auto;
+    display: block;
+}
+
+.p {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+/* ---------------- Form Styling ---------------- */
+.card {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.form-group label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(20px);
+    color: #555;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label {
+    top: -8px;
+    font-size: 12px;
+    color: #FF451C;
+    background: white;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+/* ---------------- Checkbox + Forgot ---------------- */
+.chk1 {
+    width: 350px;
+    margin: 10px auto;
+    font-size: small;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#chk {
+    accent-color: #FF451C;
+}
+
+.p1 {
+    width: 350px;
+    margin: -10px auto 20px auto;
+    font-size: small;
+    color: white;
+    text-align: right;
+    cursor: pointer;
+}
+
+/* ---------------- Buttons ---------------- */
+button {
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
+
+.button .google {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.button .googleImage {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -130px;
+    top: -35px;
+}
+
+/* ---------------- Divider ---------------- */
+h3 {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+/* ---------------- Footer ---------------- */
+.line {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    font-size: small;
+}
+
+.p2 { margin: 0; }
+.p3 { margin: 0; font-weight: bold; cursor: pointer; }
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .form-group input {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .form-group label {
+        color: white;
+    }
+
+    .chk1, .p1, h3, .line {
+        width: 90%;
+        max-width: 350px;
+        color: white;
+    }
+
+    button {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .button .google {
+        border: 1px solid white;
+        color: white;
+    }
+}

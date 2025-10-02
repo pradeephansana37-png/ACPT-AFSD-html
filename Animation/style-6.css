@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    overflow: hidden; 
+}
+
+
+/* .body{
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+
+.sky{
+    
+    height: 100vh;
+    background-image: url(assets/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+
+
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/sky.jpg);
+    background-size: cover;
+    background-position: center bottom;
+     */
+
+
+}
+
+.buildings{
+    width: 500%;
+    height: 250px;
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    animation: running-buildings 20s linear infinite;
+    background-repeat: repeat-x;
+    background-image: url(assets/city.png);
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+
+}
+
+
+@keyframes running-buildings{
+    100%{
+        transform: translateX(-1400px);
+    }
+}
+
+
+.road{
+    width: 500%;
+    height: 300px;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right:0;
+    animation: roading 7s linear infinite;
+    background-repeat: repeat-x;
+  
+
+}
+
+@keyframes roading{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+.cars{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.car{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 200px; 
+
+  
+}
+
+
+.wheel-01{
+    bottom: 222px;
+    left: 55%;
+    position: absolute;
+    height: 73px;
+    width: 73px;
+}
+
+
+.wheel-02{
+    
+    left: 39%;
+    position: absolute;
+    height: 73px;
+    width: 73px;
+    bottom: 222px;
+   
+}
+
+.wheel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: circle-wheel 1s linear infinite; 
+    transform-origin: center center;
+
+}
+
+
+@keyframes circle-wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+    
+    
+    .wheel-01{
+        bottom: 222px;
+        left: 55%;
+        position: absolute;
+        height: 73px;
+        width: 73px;
+    }
+
+
+    .wheel-02{
+        
+        left: 39%;
+        position: absolute;
+        height: 73px;
+        width: 73px;
+        bottom: 222px;
+    
+    }
+
+    .wheel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        animation: circle-wheel 1s linear infinite; 
+        transform-origin: center center;
+
+    }
+
+
+    .cars{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.car{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 200px; 
+
+  
+}
+
+
+}

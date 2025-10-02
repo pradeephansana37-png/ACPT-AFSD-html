@@ -1,0 +1,64 @@
+.title2 {
+    background-color:purple;
+    color:white;
+}
+
+.btn {
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    font-size: large;
+    padding: 2%;
+    margin:1.5%;
+    
+        
+}
+
+
+#acpt {
+    border: 2px solid black;
+}
+
+
+.afsd {
+    box-shadow: 2px 3px 5px -1px black;
+}
+
+
+h3 {
+    background-color:green;
+}
+
+
+*{
+    margin: 0;
+    background-color: yellow;
+}
+
+
+div > h4 {
+    background-color: brown;
+}
+
+
+#my {
+    background-color:red !important;
+}
+
+.my2 {
+    background-color: green;
+}
+
+
+.box {
+    padding: 200px;
+    border: 50px solid black;
+    margin: 100px;
+}
+
+
+
+
+
+
+

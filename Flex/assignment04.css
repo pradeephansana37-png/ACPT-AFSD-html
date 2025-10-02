@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+}
+
+
+.navi-bar{
+    background-color: #DB8C33;
+    height: 108px;
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 29px 30px;
+    position: absolute;
+}
+
+.tab{
+    background-color: #DB8C33;
+    color: white;
+    padding: 46px 40px;
+    border: 0px;
+    
+}
+
+.btn-tab{
+    text-align: right;
+}
+
+.form{
+    margin: 70px 250px;
+    background-color: #E9E6E6;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+
+.box>label {
+    display: block;
+    font-size: 14px;
+    margin: 5px;
+    color: #555;
+}
+
+
+.box>input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #E9E6E6;
+}
+
+.submit-btn {
+    padding: 10px 50px;
+    margin: 20px 10px;
+    background: #6ccf80;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    grid-column: 6;
+      
+}
+
+.box{
+    margin: 40px 30px 0px 15px;
+    height: 70px;
+}
+
+.firstname{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.secondname{
+    grid-column-start: 4;
+    grid-column-end: 7;
+} 
+
+
+.gndr{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.nc{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.cntct{
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.mail{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+
+.adrs{
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+
+.topic{
+    margin: 10px 90px;
+}
+
+
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;   
+    padding: 30px 0;
+}
+
+
+
+
+.card{
+    background-color: #DB8C33;
+    width: 342px;
+    height: 296px;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+    text-align: justify;
+    
+}
+
+
+.img-01{
+    width: 60px;
+    height: 60px;
+    margin: 30px 141px;   
+}
+
+.card>h3{
+    text-align: center;
+}
+
+
+p{
+    margin: 20px 15px;
+}
+
+.img-02{
+    width: 60px;
+    height: 60px;
+    margin: 30px 141px;  
+}
+
+.img-03{
+    width: 60px;
+    height: 60px;
+    margin: 30px 141px;  
+}
+
+.footer{
+    background-color: #D9D9D9;
+    height: 250px; 
+}
+
+.footer>h3{
+    text-align: center;
+    padding: 114px 50px;
+}
+
+
+.wtsp-logo{
+    width: 80px;
+    height: 80px;
+    background-color:#DB8C33 ;
+    border-radius: 80px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}

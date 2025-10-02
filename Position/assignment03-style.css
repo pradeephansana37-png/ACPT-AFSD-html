@@ -1,0 +1,211 @@
+
+*{
+    margin: 0px;
+}
+
+
+.background{
+    width: 1512px;
+    height: 1789px;
+    position: absolute;
+}
+
+
+
+.top-navi{
+    margin: 10px 10px;
+    border-radius: 10px;
+    width: 1482px;
+    height: 108px;
+    background-color: #BD9292;
+    position: absolute;
+
+}
+
+
+.Ylogo{
+    margin: 18px 90px;
+    width: 70px;
+    height: 70px;
+     
+}
+
+
+.left-navi{
+    margin:130px 10px;
+    border-radius: 10px;
+    width: 315px;
+    height: 1647px;
+    background:#BD929233;
+    position: absolute;
+}
+   
+
+.left-navi>.navi-btn{
+    background-color: #BD9292;
+    margin: 40px;
+    width: 219px;
+    height: 64px;
+    border-radius: 10px ;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.body{
+    margin: 0px  -10px;
+    width: 1150px;
+    height: 1349px;
+    position: relative;
+    top: 130px;
+    left: 346px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.body>h2{
+    margin: 40px;
+}
+
+.body>p{
+    margin: 40px;
+}
+
+
+.main-card>h2{
+    margin: 40px;
+}
+
+.card-01>h3{
+    padding: 84px 54px;
+}
+
+.card-02>h3{
+    padding: 84px 54px;
+}
+
+.card-03>h3{
+    padding: 84px 54px;
+}
+
+
+.card-04>h3{
+    padding: 84px 54px;
+}
+
+.card-05>h3{
+    padding: 84px 54px;
+}
+
+
+.card-01{
+    margin: 100px;
+    border-radius: 10px;
+    background-color: #7758CF;
+    font-size: large;
+    width:200px ;
+    height: 200px;
+    position: absolute;
+    top: 561px;
+    left: 392px;
+    color: white;
+    
+}
+
+.card-02{
+    margin: 100px;
+    border-radius: 10px;
+    background-color: #E09191;
+    font-size: large;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 698px;
+    left: 526px;
+    color: white;
+    padding: 10px;
+}
+
+
+.card-03{
+    margin: 100px;
+    border-radius: 10px;
+    background-color: #D7AB53;
+    font-size: large;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 830px;
+    left: 656px;
+    color: white;
+    padding: 10px;
+}
+
+
+.card-04{
+    margin: 100px;
+    border-radius: 10px;
+    background-color: #63BE92;
+    font-size: large;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 698px;
+    left: 808px;
+    color: white;
+    padding: 10px;
+}
+
+
+.card-05{
+    margin: 100px;
+    border-radius: 10px;
+    background-color: #997ADB;
+    font-size: large;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 556px;
+    left: 916px;
+    color: white;
+    padding: 10px;
+}
+
+
+.footer{
+    width: 1150px;
+    height: 295px;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius: 10px;
+    background-color: #BD9292;
+    position: absolute;
+    top: 1481px;
+    left: 336px;
+}
+
+.footer>h2{
+    color: white;
+    padding: 134px 516px;
+    
+}
+
+
+.wtsp{
+    z-index: 1;
+    position: fixed;
+    bottom: 30px;
+    right: 45px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: white;
+    
+}
+
+

@@ -1,0 +1,31 @@
+.mq{
+    background-color: blue;
+}
+
+
+/* @media only screen and (min-width:500px) {
+    .mq{
+    background-color:red;
+    display: none;
+    }
+    
+}
+
+
+@media only screen and (min-width:800px) {
+    .mq{
+    background-color:yellow;
+    
+    }
+    
+} */
+
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+    .mq{
+    background-color:green;
+    
+    }
+    
+}
+

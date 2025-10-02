@@ -1,0 +1,31 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.btn{
+    padding: 10px 20px;
+    border: 2px;
+    border: red solid;
+    color: red;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    
+    .btn{
+    padding: 10px 20px;
+    border: none;
+    border:none solid;
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+    }
+}
+
+

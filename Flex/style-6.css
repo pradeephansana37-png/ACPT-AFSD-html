@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 360px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+    align-items: center;
+    border-radius: 8px;
+    
+    
+    
+}
+
+.welcome{
+    padding: 10px;
+}
+
+
+#username{
+    text-align: center;
+    color: black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-size: 14px;
+    background-color: rgb(228, 238, 248);
+}
+
+#password{
+    text-align: center;
+    color: black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-size: 14px;
+    background-color: rgb(228, 238, 248);
+}
+
+#btn{
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(126, 126, 163);
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+#golink{
+    padding: 10px;
+}

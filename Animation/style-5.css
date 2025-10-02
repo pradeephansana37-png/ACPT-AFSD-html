@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("./assets/5a44a613649630ff4ddcfa3a4756a4dc9590ccdc.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-card {
+  height: 100%;
+  width: 51%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 700px;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 0px 30px 30px 0px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.logo1 {
+  width: 90px;
+  height: 90px;
+  margin: 20px auto;
+  display: block;
+}
+
+.logo2{
+    display: none;
+}
+
+.main-card > h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  color: #FF451C;
+}
+
+/* Inputs */
+#username,#password {
+  width: 100%;
+  max-width: 500px;
+  height: 45px;
+  background-color: #F1F1F1;
+  border-radius: 14px;
+  margin: 15px auto;
+  padding: 5px 10px;
+  display: block;
+  transition: 0.3s;
+  position: relative;
+  border: none;
+}
+
+/* Floating placeholder effect */
+.login input::placeholder {
+  color: #888;
+  transition: 0.3s ease;
+}
+
+.login input:focus::placeholder,
+.login input:not(:placeholder-shown)::placeholder {
+  transform: translateY(-22px);
+  font-size: 12px;
+  color: #007bff;
+  opacity: 1;
+}
+
+/* Eye icon */
+.eye {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Remember + Forgot */
+.login2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #606060;
+  margin: 10px auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.rm {
+  margin-left: 5px;
+}
+
+.forgot-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #606060;
+}
+
+/* Buttons */
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn1,.btn2 {
+  width: 100%;
+  max-width: 520px;
+  height: 45px;
+  border-radius: 14px;
+  margin: 15px auto;
+  padding: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #FF451C;
+  color: white;
+  border: none;
+}
+
+.btn2 {
+  background-color: white;
+  color: #FF451C;
+  border: 1px solid #FF451C;
+}
+
+.google {
+  width: 20px;
+  height: 20px;
+  margin: -3px 5px;
+}
+
+.login3 {
+  margin-top: 40px;
+  color: #606060;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.login3-link {
+  text-decoration: none;
+  color: #606060;
+  margin: 18px;
+}
+
+.login > h3 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 10px;
+  color: #FF451C;
+  font-size: 14px;
+}
+
+
+
+
+
+
+/* -------------------- Responsive -------------------- */
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+  .main-card {
+    width: 80%;
+    height: auto;
+    border-radius: 0 20px 20px 0;
+    padding: 20px;
+  }
+
+  .btn1,.btn2 {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .login2 {
+    align-items: flex-start;
+    font-size: 13px;
+  }
+
+  .eye {
+    top: 38%;
+    right: 20px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  body {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .main-card {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    padding: 15px;
+    position: relative;
+
+    /* Remove white box */
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .logo1{
+    display: none;
+  }
+
+  .logo2 {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .main-card > h3 {
+  color: white;
+  margin: 0px;
+}
+
+  #username,#password {
+    width: 100%;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.8); /* slight transparency so text is readable */
+  }
+
+  .eye {
+    top: 35%;
+    right: 15px;
+  }
+
+  .btn1 {
+    width: 100%;
+    font-size: 13px;
+  }
+
+
+  .btn2 {
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    background: transparent;
+    border:1px white solid;
+  }
+
+  .login3 {
+    font-size: 13px;
+    color: white;
+  }
+
+  .login2 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+  }
+
+  .forgot-link{
+    color: white;
+  }
+
+  .login3-link{
+    color: white;
+  }
+}
