@@ -78,7 +78,7 @@ body {
   height: 25px;
   position: absolute;
   right: 30px;
-  top: 50%;
+  top: 300px;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -198,8 +198,8 @@ body {
   }
 
   .eye {
-    top: 38%;
-    right: 20px;
+    top: 300px;
+    right: 34px;
   }
 }
 
@@ -245,8 +245,8 @@ body {
   }
 
   .eye {
-    top: 35%;
-    right: 15px;
+    top: 277px;
+    right: 27px;
   }
 
   .btn1 {
