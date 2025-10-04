@@ -95,6 +95,12 @@ body {
   width: 100%;
 }
 
+.together{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .rm {
   margin-left: 5px;
 }
